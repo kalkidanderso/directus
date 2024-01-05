@@ -1,0 +1,21 @@
+
+# Directories
+node_modules/
+dist/
+
+# Files
+.DS_Store
+.env
+
+# TypeScript
+*.tsbuildinfo
+*.ts
+
+# Yarn
+yarn-error.log
+yarn.lock
+.pnp.*
+
+# Dependency directories
+/jspm_packages/
+/bower_components/
