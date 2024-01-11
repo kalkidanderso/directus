@@ -19,3 +19,6 @@ yarn.lock
 # Dependency directories
 /jspm_packages/
 /bower_components/
+
+Dockerfile
+docker-compose.yml

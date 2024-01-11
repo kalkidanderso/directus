@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@google-cloud/dialogflow": "^6.3.0",
     "@img/sharp-linux-x64": "^0.33.1",
     "mysql": "^2.18.1",
     "sharp": "^0.33.1"
