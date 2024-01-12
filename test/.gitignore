@@ -9,7 +9,7 @@ dist/
 
 # TypeScript
 *.tsbuildinfo
-*.ts
+
 
 # Yarn
 yarn-error.log
