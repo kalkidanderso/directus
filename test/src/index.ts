@@ -115,7 +115,16 @@ export default defineEndpoint((router) => {
       res.status(500).send('Internal Server Error');
     }
   });
-
+//   Endpoint for getting chat bot
+router.get("/dialogflow", async (_req, res) => {
+  try {
+    const books = await client.request(readItems('chat-bot'));
+    res.json(books);
+  } catch (error) {
+    console.error('Error in /dialogflow GET endpoint:', error);
+    res.status(500).send('Internal Server Error');
+  }
+});
 //   Endpoint for Books
   router.get("/books", async (_req, res) => {
     try {
