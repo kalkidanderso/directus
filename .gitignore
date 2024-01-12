@@ -5,7 +5,6 @@ dist/
 
 # Files
 .DS_Store
-.env
 
 # TypeScript
 *.tsbuildinfo
